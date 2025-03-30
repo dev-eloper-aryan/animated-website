@@ -445,7 +445,6 @@ strong {
 }
 
 @media (max-width: 720px) {
-
   .overlay h4 {
     font-size: 1.2rem;
   }
@@ -469,7 +468,7 @@ strong {
     transition: top 0.5s ease-in-out, opacity 0.5s ease-in-out;
   }
 
-  #nav{
+  #nav {
     height: 140px;
     width: 100%;
     display: flex;
@@ -589,5 +588,20 @@ strong {
   .contact-details p {
     margin-top: 10px;
     font-size: 1rem;
-}
+  }
+  #toggleMessageBox {
+    padding: 15px 20px;
+    font-size: 10px;
+    text-align: center;
+    width: 40vw;
+    cursor: pointer;
+    border: none;
+    background-color: #5a0ecc;
+    color: white;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: background 0.5s;
+    margin: auto;
+  }
 }
