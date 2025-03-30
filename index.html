@@ -14,15 +14,14 @@
   </head>
   <body>
     <div id="nav">
-      <!-- <img
-        src="https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/logo-white.svg"
-        alt=""  
-      /> -->
       <div class="h3">{A}</div>
-      <div class="h4"><a href="#page1">Home Page</a></div>
-      <div class="h4"><a href="#page2">About</a></div>
-      <div class="h4"><a href="#page3">Projects</a></div>
-      <div class="h4"><a href="#page4">Contact</a></div>
+      <div class="hamburger">&#9776;</div>
+      <div class="nav-links">
+        <div class="h4"><a href="#page1">Home Page</a></div>
+        <div class="h4"><a href="#page2">About</a></div>
+        <div class="h4"><a href="#page3">Projects</a></div>
+        <div class="h4"><a href="#page4">Contact</a></div>
+      </div>
     </div>
     <div id="cursor"></div>
     <div id="cursor-blur"></div>
@@ -50,10 +49,12 @@
           </div>
         </div>
         <div id="about-us">
-          <img
-            src="https://ionic.io/blog/wp-content/uploads/2024/02/angular-feature-image-1-2048x1024.png"
-            alt=""
-          />
+          <div class="img">
+            <img
+              src="https://ionic.io/blog/wp-content/uploads/2024/02/angular-feature-image-1-2048x1024.png"
+              alt=""
+            />
+          </div>
           <div id="about-us-inner">
             <h2>ABOUT ME</h2>
             <p>
@@ -65,10 +66,12 @@
               refining UX strategies to create seamless web experiences.
             </p>
           </div>
-          <img
-            src="https://ik.imagekit.io/ably/ghost/prod/2023/12/choosing-the-best-javascript-frameworks-for-your-next-project.png?tr=w-1728,q-50"
-            alt=""
-          />
+          <div class="img">
+            <img
+              src="https://ik.imagekit.io/ably/ghost/prod/2023/12/choosing-the-best-javascript-frameworks-for-your-next-project.png?tr=w-1728,q-50"
+              alt=""
+            />
+          </div>
         </div>
       </div>
       <div id="page3">
@@ -101,7 +104,6 @@
               <strong>Technologies Used:</strong>
               <ul>
                 <li>JavaScript, Spring Boot, AWS, MySQL & Java</li>
-               
               </ul>
             </div>
           </div>
@@ -187,6 +189,7 @@
         </div>
       </div>
     </div>
+
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/gsap.min.js"
       integrity="sha512-f6bQMg6nkSRw/xfHw5BCbISe/dJjXrVGfz9BSDwhZtiErHwk7ifbmBEtF9vFW8UNIQPhV2uEFVyI/UHob9r7Cw=="
@@ -199,7 +202,6 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
     <script src="script.js"></script>
